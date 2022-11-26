@@ -1,0 +1,265 @@
+@media only screen and (max-width: 1100px) and (min-width: 901px) {
+    .header .mega-menu img{
+        display: none;
+    }
+    .landing .text{
+        margin-bottom: 8rem;
+    }
+    .landing .image{
+        display: none;
+    }
+    .landing .container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .pricing .container .popular{
+        transform: translateY(0px);
+    }
+    .videos .container .holder {
+        display: block;
+    }
+}
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+    .header .container {
+        display: block;
+    }
+    .header .container .logo {
+        display: flex;
+        justify-content: center;
+        padding: 30px 0 30px 0;
+    }
+    .header .container ul {
+        display: flex;
+        justify-content: center;
+    }
+    .landing .image{
+        display: none;
+    }
+    .landing .container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .header .mega-menu {
+        width: 650px;
+        height: 310px;
+    }
+    .header .mega-menu img{
+        display: none;
+    }
+    .header .mega-menu ul {
+        display: block;
+    }
+    .our-skills .container img{
+        display: none;
+    }
+
+    .subscribe {
+        display: block;
+        width: 100%;
+        background-color: red;
+
+    }
+    .subscribe form{
+        width: 100%;
+        border-radius: 0px !important;
+    }
+    .subscribe form input[type="email"]{
+        width: 100% !important;
+        margin-bottom: 20px;
+        border-radius: 0 !important;
+        padding-left: 0px !important;
+    }
+    input[type="submit"]{
+        width: 100% !important;
+        height: 40px;
+        border: none;
+        border-radius: 0px !important;
+        margin-left: 0px !important;
+    }
+    .pricing .container .popular{
+        transform: translateY(0px);
+    }
+    .videos .container .holder {
+        display: block;
+    }
+}
+
+
+
+@media only screen and (max-width: 750px) and (min-width: 400px) {
+    .work-steps .container .info .box {
+        display: flex;
+        text-align: center;
+        overflow: hidden;
+        flex-direction: column;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
+
+
+@media only screen and (max-width: 599px) and (min-width: 400px) {
+    .header .container {
+        display: block;
+    }
+    .header .container .logo {
+        display: flex;
+        justify-content: center;
+        padding:  0px 0  0px 0;
+    }
+    .header .container ul {
+        display: flex;
+        justify-content: center;
+    }
+    .landing .image{
+        display: none;
+    }
+    .landing .container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 7rem;
+    }
+    .header .mega-menu {
+        width: 450px;
+        height: 410px;
+    }
+    .header .mega-menu img{
+        display: none;
+    }
+    .header .mega-menu ul {
+        display: block;
+    }
+    .header .mega-menu ul li a{
+        font-size: 14px;
+    }
+    .our-skills .container img{
+        display: none;
+    }
+    .subscribe {
+        display: block;
+        width: 100%;
+        background-color: red;
+
+    }
+    .subscribe form{
+        width: 100%;
+        border-radius: 0px !important;
+    }
+    .subscribe form input[type="email"]{
+        width: 100% !important;
+        margin-bottom: 20px;
+        border-radius: 0 !important;
+        padding-left: 0px !important;
+    }
+    input[type="submit"]{
+        width: 100% !important;
+        height: 40px;
+        border: none;
+        border-radius: 0px !important;
+        margin-left: 0px !important;
+    }
+    .pricing .container .popular{
+        transform: translateY(0px);
+    }
+    .videos .container .holder .list{
+        padding: 0;
+    }
+    .videos .container .holder {
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width: 399px) and (min-width: 200px) {
+    body{
+        overflow: hidden;
+    }
+    .header .container {
+        display: block;
+    }
+    .header .container .logo {
+        display: flex;
+        justify-content: center;
+        padding: 30px 0 30px 0;
+    }
+    .header .container ul {
+        display: block;
+        justify-content: center;
+    }
+    .landing .image{
+        display: none;
+    }
+    .landing .container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+    .header .mega-menu {
+        width: 200px;
+        left: 6rem;
+        height: 600px;
+        display: block;
+    }
+    .header .mega-menu img{
+        display: none;
+    }
+    .header .mega-menu ul {
+        display: block;
+    }
+    .header .mega-menu ul li a{
+        font-size: 10px;
+    }
+
+    .header .mega-menu img{
+        display: none;
+    }
+    .our-skills .container img{
+        display: none;
+    }
+    .subscribe {
+        display: block;
+        width: 100%;
+        background-color: red;
+
+    }
+    .subscribe form{
+        width: 100%;
+        border-radius: 0px !important;
+    }
+    .subscribe form input[type="email"]{
+        width: 100% !important;
+        margin-bottom: 20px;
+        border-radius: 0 !important;
+        padding-left: 0px !important;
+    }
+    input[type="submit"]{
+        width: 100% !important;
+        height: 40px;
+        border: none;
+        border-radius: 0px !important;
+        margin-left: 0px !important;
+    }
+    .work-steps .container .info .box {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        width: 280px;
+    }   
+    .pricing .container{
+        width: 250px;
+    }
+    .pricing .container .popular{
+        transform: translateY(0px);
+    }
+    .videos .container .holder {
+        display: block;
+        width: 100%;
+    }
+}
